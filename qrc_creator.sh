@@ -83,7 +83,7 @@ ALIASNAME=$5
 
 if [ "$1" == "-h" ] || [ "$1" == "" ]
 then
-	echo -e "usage : ./qrc_creator.sh \n\t-create : create ressources tree\n\t-exec : create qrc file\n\t -exec-rar : voir (-exec) avec compression"
+	echo -e "usage : ./qrc_creator.sh \n\t-create : create ressources tree\n\t-exec : create qrc file\n\t -exec-rar : voir (-exec) avec compression \n\n launch -create -> move you're ressources in the tree folder -> launch -exec"
 elif [ "$1" == "-create" ] || [ "$1" == "-c" ]
 then
 	
