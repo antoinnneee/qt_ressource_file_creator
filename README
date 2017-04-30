@@ -1,0 +1,7 @@
+usage : ./qrc_creator.sh 
+	-create : create ressources tree
+	-exec : create qrc file
+	-exec-rar : (-exec) with compression 
+
+launch -create -> move you're ressources in the tree folder -> launch -exec
+
